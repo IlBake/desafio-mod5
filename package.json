@@ -1,0 +1,20 @@
+{
+  "name": "desafio-modulo5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "deploy": "gh-pages",
+    "build-and-deploy": "npm run build && npm run deploy"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
