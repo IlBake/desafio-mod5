@@ -36,7 +36,6 @@ export function initRouter(container: any) {
     handleRoute(completePath);
   }
   function handleRoute(route) {
-
     const newRoute = isGithubPages() ? route.replace(BASE_PATH, "") : route;
 
     for (const r of routes) {
